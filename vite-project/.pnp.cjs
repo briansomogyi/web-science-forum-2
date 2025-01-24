@@ -31,6 +31,7 @@ const RAW_RUNTIME_STATE =
           ["@tailwindcss/vite", "virtual:c56b46d83dc705f61d645efafd50b5dd10b694a413a2075f2bfa433bbaa41df431f824c0f747468efbf1694d7d2f15adbae617c2c5c3f6b6e0b1978b92526b7c#npm:4.0.0"],\
           ["@vitejs/plugin-vue", "virtual:c56b46d83dc705f61d645efafd50b5dd10b694a413a2075f2bfa433bbaa41df431f824c0f747468efbf1694d7d2f15adbae617c2c5c3f6b6e0b1978b92526b7c#npm:5.2.1"],\
           ["autoprefixer", "virtual:c56b46d83dc705f61d645efafd50b5dd10b694a413a2075f2bfa433bbaa41df431f824c0f747468efbf1694d7d2f15adbae617c2c5c3f6b6e0b1978b92526b7c#npm:10.4.20"],\
+          ["bootstrap-icons", "npm:1.11.3"],\
           ["postcss", "npm:8.5.1"],\
           ["tailwindcss", "npm:3.4.17"],\
           ["vite", "virtual:c56b46d83dc705f61d645efafd50b5dd10b694a413a2075f2bfa433bbaa41df431f824c0f747468efbf1694d7d2f15adbae617c2c5c3f6b6e0b1978b92526b7c#npm:6.0.11"],\
@@ -1081,6 +1082,15 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../home/node/.yarn/berry/cache/binary-extensions-npm-2.3.0-bd3f20d865-10c0.zip/node_modules/binary-extensions/",\
         "packageDependencies": [\
           ["binary-extensions", "npm:2.3.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["bootstrap-icons", [\
+      ["npm:1.11.3", {\
+        "packageLocation": "../../home/node/.yarn/berry/cache/bootstrap-icons-npm-1.11.3-8d5387bef2-10c0.zip/node_modules/bootstrap-icons/",\
+        "packageDependencies": [\
+          ["bootstrap-icons", "npm:1.11.3"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -2880,6 +2890,7 @@ const RAW_RUNTIME_STATE =
           ["@tailwindcss/vite", "virtual:c56b46d83dc705f61d645efafd50b5dd10b694a413a2075f2bfa433bbaa41df431f824c0f747468efbf1694d7d2f15adbae617c2c5c3f6b6e0b1978b92526b7c#npm:4.0.0"],\
           ["@vitejs/plugin-vue", "virtual:c56b46d83dc705f61d645efafd50b5dd10b694a413a2075f2bfa433bbaa41df431f824c0f747468efbf1694d7d2f15adbae617c2c5c3f6b6e0b1978b92526b7c#npm:5.2.1"],\
           ["autoprefixer", "virtual:c56b46d83dc705f61d645efafd50b5dd10b694a413a2075f2bfa433bbaa41df431f824c0f747468efbf1694d7d2f15adbae617c2c5c3f6b6e0b1978b92526b7c#npm:10.4.20"],\
+          ["bootstrap-icons", "npm:1.11.3"],\
           ["postcss", "npm:8.5.1"],\
           ["tailwindcss", "npm:3.4.17"],\
           ["vite", "virtual:c56b46d83dc705f61d645efafd50b5dd10b694a413a2075f2bfa433bbaa41df431f824c0f747468efbf1694d7d2f15adbae617c2c5c3f6b6e0b1978b92526b7c#npm:6.0.11"],\
