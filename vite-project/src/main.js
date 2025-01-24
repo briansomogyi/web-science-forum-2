@@ -1,18 +1,8 @@
 import { createApp } from 'vue'
-import { createRouter, createWebHashHistory } from 'vue-router'
 import 'bootstrap-icons/font/bootstrap-icons.css';
 import App from './App.vue'
-import HelloWorld from './components/HelloWorld.vue';
-import About from './components/About.vue'
+import router from './router'
 
-const routes = [
-    { path: "/", component: HelloWorld },
-    { path: "/about", component: About },
-];
-
-const router = createRouter({
-    history: createWebHashHistory(),
-    routes,
-});
-
-createApp(App).use(router).mount("#app");
+const app = createApp(App)
+app.use(router)
+app.mount('#app')
