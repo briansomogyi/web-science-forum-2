@@ -22,6 +22,16 @@ const router = createRouter({
             path: '/questions/ask',
             name: 'ask-question',
             component: () => import('../views/AskQuestionView.vue')
+        },
+        {
+            path: '/questions/tagged',
+            name: 'tagged-questions',
+            component: () => import('../views/TaggedQuestionsView.vue')
+        },
+        {
+            path: '/login',
+            name: 'login',
+            component: () => import('../views/LoginView.vue')
         }
     ]
 })
