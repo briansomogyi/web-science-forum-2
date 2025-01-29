@@ -20,6 +20,10 @@
             </li>
             <li><a href="#" class="flex items-center space-x-2"><i
                         class="bi bi-chat-dots"></i><span>Discussions</span></a></li>
+            <li>
+                <RouterLink to="/collectives" class="flex items-center space-x-2"><i
+                        class="bi bi-collection"></i><span>Collectives</span></RouterLink>
+            </li>
         </ul>
     </aside>
 </template>
