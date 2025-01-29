@@ -42,6 +42,11 @@ const router = createRouter({
             path: '/discussions',
             name: 'discussions',
             component: () => import('../views/DiscussionView.vue')
+        },
+        {
+            path: '/users/saves',
+            name: 'saves',
+            component: () => import('../views/SavedItemsView.vue')
         }
     ]
 })

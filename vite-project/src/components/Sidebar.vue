@@ -13,7 +13,9 @@
                 <RouterLink to="/questions/tagged" class="flex items-center space-x-2"><i
                         class="bi bi-tags"></i><span>Tags</span></RouterLink>
             </li>
-            <li><a href="#" class="flex items-center space-x-2"><i class="bi bi-bookmark"></i><span>Saves</span></a>
+            <li>
+                <RouterLink to="/users/saves" class="flex items-center space-x-2"><i
+                        class="bi bi-bookmark"></i><span>Saves</span></RouterLink>
             </li>
             <li><a href="#" class="flex items-center space-x-2"><i class="bi bi-people"></i><span>Users</span></a></li>
             <li><a href="#" class="flex items-center space-x-2"><i class="bi bi-building"></i><span>Companies</span></a>
