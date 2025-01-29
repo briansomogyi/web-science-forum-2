@@ -18,8 +18,10 @@
             <li><a href="#" class="flex items-center space-x-2"><i class="bi bi-people"></i><span>Users</span></a></li>
             <li><a href="#" class="flex items-center space-x-2"><i class="bi bi-building"></i><span>Companies</span></a>
             </li>
-            <li><a href="#" class="flex items-center space-x-2"><i
-                        class="bi bi-chat-dots"></i><span>Discussions</span></a></li>
+            <li>
+                <RouterLink to="/discussions" class="flex items-center space-x-2"><i
+                        class="bi bi-chat-dots"></i><span>Discussions</span></RouterLink>
+            </li>
             <li>
                 <RouterLink to="/collectives" class="flex items-center space-x-2"><i
                         class="bi bi-collection"></i><span>Collectives</span></RouterLink>
