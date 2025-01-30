@@ -36,14 +36,31 @@
 </template>
 
 <script setup>
-import { ref } from 'vue';
+import { ref, computed, watch } from 'vue';
 
 const email = ref('');
 const password = ref('');
 
 const login = () => {
     // Handle login logic here
+    if (isValid.value) {
+        localStorage.setItem('email', email.value);
+        localStorage.setItem('password', password.value);
+        emit('login-success', { email: email.value });
+    }
 };
+
+const isValid = computed(() => {
+    return email.value.includes('@') && password.value.length > 6;
+});
+
+watch(email, (newEmail) => {
+    console.log('Email changed:', newEmail);
+});
+
+watch(password, (newPassword) => {
+    console.log('Password changed:', newPassword);
+});
 </script>
 
 <style></style>

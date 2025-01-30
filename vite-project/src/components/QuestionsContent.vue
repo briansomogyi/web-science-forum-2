@@ -45,4 +45,29 @@
 </template>
 
 <script setup>
+import { ref, computed, watch, defineEmits } from 'vue';
+
+const emits = defineEmits(['update']);
+
+const newestQuestions = ref([
+    {
+        title: 'Playwright routes on different pages interfering with each other?',
+        description: 'Hey all :) Playwright question ahead :) Pretty sure this is somehow my fault as I assume that others would have had the same issue before me :D I have an application which has top-level projects - in ...',
+        asked: '2 mins ago',
+        votes: 0,
+        answers: 0,
+        views: 1
+    },
+    // Add more questions here
+]);
+
+const filteredQuestions = computed(() => {
+    return newestQuestions.value.filter(question => question.votes > 0);
+});
+
+watch(newestQuestions, (newVal, oldVal) => {
+    console.log('Questions updated:', newVal);
+    emits('update', newVal);
+});
+
 </script>

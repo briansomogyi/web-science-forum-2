@@ -19,4 +19,24 @@
 </template>
 
 <script setup>
+import { ref, computed, watch, defineEmits } from 'vue'
+
+// Emits
+const emit = defineEmits(['postClicked'])
+
+const handleClick = () => {
+    emit('postClicked', 'Post was clicked!')
+}
+
+// Computed
+const votes = ref(10)
+const answers = ref(5)
+const views = ref(100)
+
+const totalInteractions = computed(() => votes.value + answers.value + views.value)
+
+// Watch
+watch(totalInteractions, (newValue, oldValue) => {
+    console.log(`Total interactions changed from ${oldValue} to ${newValue}`)
+})
 </script>
