@@ -2480,7 +2480,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tailwindcss@npm:3":
+"tailwindcss@npm:3.4.17":
   version: 3.4.17
   resolution: "tailwindcss@npm:3.4.17"
   dependencies:
@@ -2631,7 +2631,7 @@ __metadata:
     autoprefixer: "npm:^10.4.20"
     bootstrap-icons: "npm:^1.11.3"
     postcss: "npm:^8.5.1"
-    tailwindcss: "npm:3"
+    tailwindcss: "npm:3.4.17"
     vite: "npm:^6.0.5"
     vue: "npm:^3.5.13"
     vue-router: "npm:^4.5.0"
