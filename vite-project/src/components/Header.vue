@@ -12,6 +12,7 @@
         <div class="flex items-center space-x-4">
             <input type="text" placeholder="Search..." class="border rounded p-2">
             <RouterLink to="/users/brian-somogyi"><i class="bi bi-person-circle text-2xl"></i></RouterLink>
+            <RouterLink to="/help"><i class="bi bi-question-circle"></i></RouterLink>
         </div>
     </header>
 </template>

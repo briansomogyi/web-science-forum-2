@@ -62,6 +62,11 @@ const router = createRouter({
             path: '/users/brian-somogyi',
             name: '/my-account',
             component: () => import('../views/AccountView.vue')
+        },
+        {
+            path: '/help',
+            name: 'help',
+            component: () => import('../views/HelpCenterView.vue')
         }
     ]
 })
