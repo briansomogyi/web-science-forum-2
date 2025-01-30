@@ -17,7 +17,10 @@
                 <RouterLink to="/users/saves" class="flex items-center space-x-2"><i
                         class="bi bi-bookmark"></i><span>Saves</span></RouterLink>
             </li>
-            <li><a href="#" class="flex items-center space-x-2"><i class="bi bi-people"></i><span>Users</span></a></li>
+            <li>
+                <RouterLink to="/users" class="flex items-center space-x-2"><i
+                        class="bi bi-people"></i><span>Users</span></RouterLink>
+            </li>
             <li><a href="#" class="flex items-center space-x-2"><i class="bi bi-building"></i><span>Companies</span></a>
             </li>
             <li>
