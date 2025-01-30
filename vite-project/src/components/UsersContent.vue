@@ -33,7 +33,7 @@ const users = ref([
         location: 'France',
         reputation: 695,
         expertise: ['git', 'github', 'docker'],
-        avatar: '../assets/vue.svg'
+        avatar: './vite.svg'
     },
     {
         id: 2,
@@ -41,7 +41,7 @@ const users = ref([
         location: 'Reading, United Kingdom',
         reputation: 635,
         expertise: ['C#', '.net', 'java'],
-        avatar: '../assets/vue.svg'
+        avatar: './vite.svg'
     },
     // Add more users as needed
 ]);

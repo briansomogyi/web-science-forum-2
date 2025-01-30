@@ -21,7 +21,9 @@
                 <RouterLink to="/users" class="flex items-center space-x-2"><i
                         class="bi bi-people"></i><span>Users</span></RouterLink>
             </li>
-            <li><a href="#" class="flex items-center space-x-2"><i class="bi bi-building"></i><span>Companies</span></a>
+            <li>
+                <RouterLink to="/companies" class="flex items-center space-x-2"><i
+                        class="bi bi-building"></i><span>Companies</span></RouterLink>
             </li>
             <li>
                 <RouterLink to="/discussions" class="flex items-center space-x-2"><i
